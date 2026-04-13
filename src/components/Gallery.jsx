@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import Lightbox from 'yet-another-react-lightbox'
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails'
 import { galleryData } from '../data/galleryData'
@@ -68,9 +69,9 @@ export default function Gallery() {
         </div>
 
         <div className="gallery-footer-action">
-          <a href="/galeria" className="btn-secondary">
+          <Link to="/galeria" className="btn-secondary">
             Explorar galeria completa
-          </a>
+          </Link>
         </div>
 
         <Lightbox

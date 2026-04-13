@@ -1,4 +1,3 @@
-// IMPORTS DAS SUAS IMAGENS LOCAIS
 import decoracao1 from '../assets/galeria/decoracao/decoracao-1.jpg'
 import decoracao2 from '../assets/galeria/decoracao/decoracao-2.png'
 import decoracao3 from '../assets/galeria/decoracao/decoracao-3.jpg'
@@ -12,11 +11,10 @@ import infantil2 from '../assets/galeria/infantil/infantil-2.jpg'
 import mesa1 from '../assets/galeria/mesa/mesa-1.png'
 import mesa2 from '../assets/galeria/mesa/mesa-2.jpg'
 
-// 🔥 DADOS CENTRALIZADOS
 export const galleryData = [
   {
-    title: 'Decoração temática',
-    subtitle: 'Ambientes personalizados e encantadores',
+    title: 'Decoração encantadora',
+    subtitle: 'Cenários temáticos pensados para surpreender em cada detalhe',
     cover: decoracao1,
     images: [
       { src: decoracao1 },
@@ -25,8 +23,8 @@ export const galleryData = [
     ],
   },
   {
-    title: 'Espaço para convidados',
-    subtitle: 'Conforto para todos os convidados',
+    title: 'Espaço para receber com conforto',
+    subtitle: 'Ambientes acolhedores para famílias e convidados aproveitarem cada momento',
     cover: convidados1,
     images: [
       { src: convidados1 },
@@ -34,8 +32,8 @@ export const galleryData = [
     ],
   },
   {
-    title: 'Ambiente infantil',
-    subtitle: 'Diversão garantida para as crianças',
+    title: 'Universo infantil',
+    subtitle: 'Um ambiente leve, divertido e preparado para a alegria das crianças',
     cover: infantil1,
     images: [
       { src: infantil1 },
@@ -43,8 +41,8 @@ export const galleryData = [
     ],
   },
   {
-    title: 'Mesa principal',
-    subtitle: 'O destaque da festa',
+    title: 'Mesa principal em destaque',
+    subtitle: 'Composições que valorizam a decoração e tornam a festa ainda mais especial',
     cover: mesa1,
     images: [
       { src: mesa1 },
