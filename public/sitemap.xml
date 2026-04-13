@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/</loc>
+  </url>
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/sobre</loc>
+  </url>
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/servicos</loc>
+  </url>
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/galeria</loc>
+  </url>
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/contato</loc>
+  </url>
+
+  <!-- POSTS DO BLOG -->
+  <url>
+    <loc>https://www.espacoencanto.com.br/blog/como-escolher-espaco-para-festa-infantil</loc>
+  </url>
+
+  <url>
+    <loc>https://www.espacoencanto.com.br/blog/vantagens-de-alugar-espaco-para-aniversario</loc>
+  </url>
+
+</urlset>
