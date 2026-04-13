@@ -1,62 +1,57 @@
+import aboutImg1 from '../assets/galeria/sobre/sobre-1.webp'
+import aboutImg2 from '../assets/galeria/sobre/sobre-2.jpg'
+
 export default function About() {
   return (
     <section className="about">
-      <div className="container about-grid">
-        <div className="about-image">
-          <img
-            src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80"
-            alt="Espaço preparado para festas infantis"
-          />
-        </div>
+      <div className="container">
+        <div className="about-shell">
+          <div className="about-grid">
+            <div className="about-image">
+              <img src={aboutImg1} alt="Festa infantil no espaço" />
 
-        <div className="about-content">
-          <span className="section-badge">Sobre o espaço</span>
+              <img
+                src={aboutImg2}
+                alt="Ambiente do espaço"
+                className="about-image-secondary"
+              />
+            </div>
 
-          <h2>Um lugar pensado para celebrar com beleza, conforto e praticidade</h2>
+            <div className="about-content">
+              <span className="section-badge">Sobre o espaço</span>
 
-          <p>
-            Nosso espaço foi criado para receber festas infantis com uma proposta
-            acolhedora, encantadora e funcional. Aqui, cada ambiente contribui
-            para uma comemoração mais leve, bonita e especial.
-          </p>
+              <h2>Um lugar encantador para celebrar com beleza, conforto e praticidade</h2>
 
-          <p>
-            Mais do que oferecer estrutura, buscamos proporcionar uma
-            experiência completa para crianças, famílias e convidados, com
-            conforto, organização e um cenário que valoriza cada momento da
-            celebração.
-          </p>
+              <p>
+                O Espaço Encanto foi pensado para receber festas infantis de forma
+                acolhedora, organizada e especial, criando um ambiente bonito e
+                leve para crianças, famílias e convidados.
+              </p>
 
-          <div className="about-highlights">
-            <article className="about-highlight">
-              <strong>Ambiente seguro e acolhedor</strong>
-              <span>
-                Estrutura pensada para receber crianças e adultos com mais
-                conforto e tranquilidade.
-              </span>
-            </article>
+              <p>
+                Cada detalhe do espaço contribui para uma comemoração mais
+                tranquila, funcional e memorável, com estrutura preparada para
+                valorizar cada momento da celebração.
+              </p>
 
-            <article className="about-highlight">
-              <strong>Visual encantador</strong>
-              <span>
-                Um espaço que combina charme, leveza e cenários ideais para
-                festas temáticas e aniversários especiais.
-              </span>
-            </article>
+              <div className="about-points">
+                <article className="about-point">
+                  <strong>Ambiente acolhedor</strong>
+                  <span>Conforto para crianças, famílias e convidados.</span>
+                </article>
 
-            <article className="about-highlight">
-              <strong>Experiência mais prática</strong>
-              <span>
-                Organização, beleza e funcionalidade para que a comemoração seja
-                aproveitada com mais tranquilidade.
-              </span>
-            </article>
-          </div>
+                <article className="about-point">
+                  <strong>Mais praticidade</strong>
+                  <span>Um espaço bonito e funcional para comemorar com tranquilidade.</span>
+                </article>
+              </div>
 
-          <div className="about-actions">
-            <a href="/contato" className="btn-primary">
-              Agendar visita
-            </a>
+              <div className="about-actions">
+                <a href="/sobre" className="btn-secondary about-btn-secondary">
+                  Conhecer mais
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
