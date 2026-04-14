@@ -35,12 +35,22 @@ export default function Footer() {
               <div className="footer-contact-column">
                 <h3>Contato</h3>
                 <div className="footer-contact-list">
-                  <div className="footer-contact-item">WhatsApp: (11) 97020-7381</div>
-                  <div className="footer-contact-item">São Paulo - SP</div>
-                  <div className="footer-contact-item">Atendimento com horário agendado</div>
+                  <div className="footer-contact-item">
+                    WhatsApp: (11) 97020-7381
+                  </div>
+                  <div className="footer-contact-item">
+                    São Paulo - SP
+                  </div>
+                  <div className="footer-contact-item">
+                    Atendimento com horário agendado
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="footer-bottom">
+            <p>Copyright 2026 - Mark Solutions - Todos os direitos reservados</p>
           </div>
         </div>
       </div>

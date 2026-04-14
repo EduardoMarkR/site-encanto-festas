@@ -1,6 +1,12 @@
 import Seo from '../components/Seo'
 import Breadcrumb from '../components/Breadcrumb'
 
+import espaco1 from '../assets/galeria/espacos/espaco-1.jpg'
+import espaco2 from '../assets/galeria/espacos/espaco-2.jpg'
+import espaco3 from '../assets/galeria/espacos/espaco-3.jpg'
+import espaco4 from '../assets/galeria/espacos/espaco-4.jpg'
+import espaco5 from '../assets/galeria/espacos/espaco-5.jpg'
+
 const spaces = [
   {
     id: 1,
@@ -10,8 +16,7 @@ const spaces = [
     whatsapp: '5511970207381',
     capacity: 'Até 120 convidados',
     hours: 'Seg a Sáb, das 9h às 19h',
-    image:
-      'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1400&q=80',
+    image: espaco1,
     highlights: [
       'Área kids integrada',
       'Espaço climatizado',
@@ -28,8 +33,7 @@ const spaces = [
     whatsapp: '5511970207382',
     capacity: 'Até 100 convidados',
     hours: 'Seg a Sáb, das 9h às 19h',
-    image:
-      'https://images.unsplash.com/photo-1464349153735-7db50ed83c84?auto=format&fit=crop&w=1400&q=80',
+    image: espaco2,
     highlights: [
       'Salão versátil',
       'Excelente localização',
@@ -46,8 +50,7 @@ const spaces = [
     whatsapp: '5511970207383',
     capacity: 'Até 140 convidados',
     hours: 'Seg a Sáb, das 9h às 20h',
-    image:
-      'https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1400&q=80',
+    image: espaco3,
     highlights: [
       'Espaço amplo',
       'Ideal para grandes comemorações',
@@ -64,8 +67,7 @@ const spaces = [
     whatsapp: '5511970207384',
     capacity: 'Até 110 convidados',
     hours: 'Seg a Sáb, das 9h às 19h',
-    image:
-      'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1400&q=80',
+    image: espaco4,
     highlights: [
       'Decoração com ótimo impacto visual',
       'Estrutura pronta para buffet',
@@ -82,8 +84,7 @@ const spaces = [
     whatsapp: '5511970207385',
     capacity: 'Até 90 convidados',
     hours: 'Seg a Sáb, das 9h às 18h',
-    image:
-      'https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80',
+    image: espaco5,
     highlights: [
       'Unidade compacta e charmosa',
       'Ótima para festas intimistas',
