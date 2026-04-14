@@ -6,6 +6,10 @@ export default function Header() {
 
   const handleCloseMenu = () => setMenuOpen(false)
 
+  const handleToggleMenu = () => {
+    setMenuOpen((prev) => !prev)
+  }
+
   return (
     <header className="header">
       <div className="container nav">
@@ -22,14 +26,15 @@ export default function Header() {
           type="button"
           aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
           aria-expanded={menuOpen}
-          onClick={() => setMenuOpen(!menuOpen)}
+          aria-controls="main-menu"
+          onClick={handleToggleMenu}
         >
           <span></span>
           <span></span>
           <span></span>
         </button>
 
-        <nav className={`menu ${menuOpen ? 'open' : ''}`}>
+        <nav id="main-menu" className={`menu ${menuOpen ? 'open' : ''}`}>
           <Link to="/" onClick={handleCloseMenu}>
             Home
           </Link>

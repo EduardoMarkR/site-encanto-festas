@@ -63,7 +63,7 @@ export default function Sobre() {
               </p>
 
               <div className="about-hero-page-actions">
-                <Link to="/orcamento" className="btn-primary">
+                <Link to="/contato" className="btn-primary">
                   Solicitar orçamento
                 </Link>
 
@@ -176,7 +176,7 @@ export default function Sobre() {
             </p>
 
             <div className="about-cta-actions">
-              <Link to="/orcamento" className="btn-primary">
+              <Link to="/contato" className="btn-primary">
                 Solicitar orçamento
               </Link>
               <Link to="/espacos" className="btn-secondary">

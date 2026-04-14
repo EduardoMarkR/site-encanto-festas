@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import App from './App'
+import ScrollToTop from './components/ScrollToTop'
 import './styles/global.css'
 
 const link1 = document.createElement('link')
@@ -18,13 +19,15 @@ document.head.appendChild(link2)
 
 const link3 = document.createElement('link')
 link3.rel = 'stylesheet'
-link3.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap'
+link3.href =
+  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap'
 document.head.appendChild(link3)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <App />
       </BrowserRouter>
     </HelmetProvider>

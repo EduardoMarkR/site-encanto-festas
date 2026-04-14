@@ -142,7 +142,7 @@ export default function GalleryPage() {
             </p>
 
             <div className="gallery-cta-premium-actions">
-              <Link to="/orcamento" className="btn-primary">
+              <Link to="/contato" className="btn-primary">
                 Solicitar orçamento
               </Link>
 

@@ -160,7 +160,7 @@ export default function Servicos() {
                 </p>
 
                 <div className="services-hero-actions">
-                  <Link to="/orcamento" className="btn-primary">
+                  <Link to="/contato" className="btn-primary">
                     Solicitar orçamento
                   </Link>
 
@@ -339,7 +339,7 @@ export default function Servicos() {
             </p>
 
             <div className="services-cta-actions">
-              <Link to="/orcamento" className="btn-primary">
+              <Link to="/contato" className="btn-primary">
                 Solicitar orçamento
               </Link>
 
